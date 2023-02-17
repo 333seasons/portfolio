@@ -16,22 +16,16 @@ if(isIE) {
 
 
 $(window).load(function(){
-  let winWidth = $(window).width();
   let winHeight = $(window).height();
   $('header').height(winHeight);
-  $('header').width(winWidth);
 });
 $(window).resize(function(){
-  let winWidth = $(window).width();
   let winHeight = $(window).height();
   $('header').height(winHeight);
-  $('header').width(winWidth);
 });
 $(window).resize(function(){
-  let winWidth = $(window).width();
   let winHeight = $(window).height();
   $('section').height(winHeight);
-  $('section').width(winWidth);
 });
 //----- scroll--------
 $('a.top').click(function(e){
