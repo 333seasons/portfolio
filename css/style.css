@@ -1,0 +1,337 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* html{cursor: url(../img/favicon.png), auto;} */
+* { margin: 0; padding: 0; scroll-behavior: smooth;}
+li { list-style: none;}
+a { color: inherit; text-decoration: none;}
+img { display: block;}   
+body {font-family: 'Roboto', 'Orbitron','Noto Sans', 'sans-serif';}
+
+div#wrap {
+  width: 100%; height: 100%; min-width: 1310px;}
+
+nav {
+  opacity: 0.5;
+  width: 100%; 
+  border-bottom: 1px solid #ddd; position: sticky; top: 0;
+  z-index: 1; background-color: #fff;
+  /* background-color: rgba(255, 255, 255, .5);  */
+}
+nav div.inner {
+  width: 1310px; height: 60px; margin: 0 auto; position: relative;
+}
+nav div.inner h1 {
+  position: absolute; left: 100px; margin: 10px;
+}
+nav div.inner h1 a {
+  font: 700 24px/1 'Roboto'; color: #444;
+}
+nav div.inner ul#gnb {
+  position: absolute; bottom: 0; right: 0;
+}  
+nav div.inner ul#gnb li {
+  float: left;
+}  
+nav div.inner ul#gnb li a {
+  display: block; font-weight: 700; font-size: 15px; padding: 20px 40px;
+  transition: .5s;
+}  
+nav div.inner ul#gnb li a:hover {
+  background-color: #555; color: #fff;
+}
+
+header {
+  width: 100%; height: 850px; background-color: #111111;
+  position: relative; overflow: hidden; padding-top: 250px; box-sizing: border-box;
+}
+/* figure video {
+  object-fit: cover; width: 100%; height: 100%; opacity: .3; position: absolute; top: 0; left: 0;
+} */
+header div.inner {
+  width: 1310px; margin: 0 auto; position: relative;
+}
+header div.inner h1 {
+  font-size: 100px; color: #fff; margin-bottom: 20px;
+}
+header div.inner p {
+  font-size: 32px; color: #888; margin-bottom: 60px;
+}
+/* figure div.inner a {
+  display: block; width: 400px; height: 30px; border: 1px solid #bbb;
+  font-weight: 700; font-size: 12px; line-height: 30px; color: #fff;
+  text-align: center; letter-spacing: 1px; transition: .5s;
+}
+figure div.inner a:hover {
+  background-color: #fff; color: #555;
+} */
+
+#wrap>section#part1,#part3,#part5,#part7 {
+  background-color: rgb(187, 185, 185); 
+}
+
+#wrap>section { position:relative; width: 100%; height: 805px; text-align: center; padding: 137.5px 0;
+}
+
+#wrap>section>.inner { width: 1310px; height: 805px; position:absolute; top:0; bottom:0; left:0; right:0; margin: auto; background-color: rgb(241, 244, 241);}
+
+#wrap>section>.inner .inner1 {display:flex; flex-direction: row; }
+
+section div.inner h2 { font-size: 32px; text-align: left; padding: 70px 0 0 50px;}
+
+/* Section # Part1 */
+section .inner .inBox1 {
+  width: 465px; height:685px; flex:1;
+
+}
+section .inner .inBox1 .picture {
+  width: 250px; height: 250px; border:4px solid gray; border-radius: 50% ; margin: 75px auto; 
+  /* background-image: url(../img/face1.png); background-size: cover; */
+}
+section .inner .inBox1 .picture img {
+  width: 250px; height: 250px; border-radius: 50% ;
+}
+section .inner .inBox1 .picText {
+  font-size: 27px; line-height: 150%; text-align: left;
+  margin-left: 100px;font-weight: 600;
+}
+section .inner .inBox2 {
+  width: 465px; height:685px; flex:2;
+  
+}
+section .inner .inBox2 p {
+  font-size: 23px; line-height: 170%; text-align: left;
+  margin-left: 80px; margin-top: 70px; font-weight: 500;
+}
+
+section .inner .inBox2 p span {
+  font-size: 27px; line-height: 200%; text-align: left;
+  margin-top: 50px; font-weight: 700; border:1px; 
+  border-radius: 15px; background-color: #ffa500;
+  ; padding:7px; 
+}
+
+/* Section # Part2 */
+section#part2> .inner .skillBox {
+display:flex; flex-direction: row; flex-wrap: wrap; justify-content: center; 
+}
+section#part2> .inner> .skillBox .skill {
+  width:120px; height: 120px; box-sizing: border-box; 
+  margin:60px; 
+}
+section#part2>div.inner div.skillBox div.skill img {
+  width: 120px; height: 120px;
+}
+
+section#part2>div.inner div.skillBox div.skill> p {
+  font-size: 28px; margin: 20px; font-weight: 600;
+} 
+section#part2>div.inner>p {
+  font-size: 30px; margin-top: 150px; text-align: right;
+} 
+
+/* Section # Part3 */
+section .inner .inner_in {
+  display: flex; 
+}
+section .inner .inner_in .port {
+  flex:1; border: 1px solid blue;
+}
+section .inner .inner_in .portTxt {
+  flex:1; border: 1px solid blue;
+}
+
+section .inner .inner_in .portTxt p:first-child{
+  font-size: 30px; font-weight: 400;
+  padding-top: 50px;
+}
+section .inner .inner_in .portTxt p:nth-of-type(2){
+  font-size: 20px; font-weight: 300; margin-bottom: 300px;
+  padding-top: 50px;
+}
+section .inner .inner_in .portTxt button {
+  margin: 0 auto; width: 100px; text-align: center; display:block;
+  box-sizing: border-box; border-radius: 20px;  padding: 10px 20px; 
+}  
+section .inner .inner_in .portTxt button:hover {
+  color: orangered; 
+  border: 1px solid orangered; 
+  box-shadow: 0 0 10px orangered;
+}
+
+
+/* Section # Part8 */
+section#part7> .inner .otherBox {
+  display:flex; flex-direction: row; justify-content: center;
+}
+section#part7> .inner .otherBox .other{
+  width: 300px; height: 600px; 
+  /* border-style: solid;
+  border-color: blue; border-width: 3px; box-sizing: border-box;
+  z-index: 1; */
+  border: 1px solid blue; box-sizing: border-box;
+}  
+
+
+/* section div.inner h1 {
+  font-weight: 700; font-size: 24px; text-align: center; margin-bottom: 50px;
+} 
+section div.inner div.wrap {
+  width: 100%; 
+} 
+section div.inner div.wrap div.news {
+  outline: 1px solid gray; border-radius: 5px;
+}
+section div.inner div.wrap div.news:hover {
+  box-shadow: 0 0 5px;
+}  
+section div.inner div.wrap:after {
+  content: ""; display: block; clear: both; 
+}  
+section div.inner div.wrap article {
+  width: 280px; margin-right: 20px; float: left;
+} 
+section div.inner div.wrap article:last-child{
+  margin-right: 0;
+} 
+section div.inner div.wrap article h2 {
+  margin-bottom: 10px; margin-left: 10px;
+}  
+section div.inner div.wrap article h2 {
+  margin-bottom: 10px; margin-left: 10px;
+}  
+section div.inner div.wrap article h2 a {
+  font-size: 16px; line-height: 1.4; color: #777;
+}  
+section div.inner div.wrap article p {
+  font-size: 14px; line-height: 1.4; color: #777; margin-left: 10px; 
+  padding-bottom: 10px;
+} 
+section div.inner div.wrap article div.pic {
+  width: 100%; height: 120px; background-color: #333; margin-bottom: 15px;
+  position: relative; overflow: hidden;  border-radius: 5px;
+}  
+section div.inner div.wrap article div.pic img {
+  object-fit: cover; width: 100%; height: 100%;
+} */
+
+/* ------ figure#part8 ----- */
+figure#part8 {
+  width: 100%; height: 850px; background-color: #111111;
+  position: relative; overflow: hidden; padding-top: 250px; box-sizing: border-box;
+}
+figure#part8 div.inner {
+  width: 1310px; margin: 0 auto; position: relative;
+}
+figure#part8 div.inner h1 {
+  font-size: 50px; color: #fff; margin-bottom: 20px;
+  font-weight: 400;
+}
+figure#part8 div.inner p {
+  font-size: 26px; color: #888;
+}
+figure#part8 div.inner div.contact {
+  padding-top: 200px;
+}
+figure#part8 div.inner div.contact span {
+  color: rgb(198, 65, 24); 
+}
+figure#part8 div.inner div.contact .email p {
+  margin:10px; display: inline-block; cursor: pointer;
+  font-size: 20px;
+}
+figure#part8 div.inner div.contact .mail {
+  width: 180px; padding: 15px 20px; margin-left: 10px;
+  background-color: #444444;
+  border-radius: 5px;
+  color: #ffffff;
+  display: none;
+}
+figure#part8 div.inner div.contact .email:active + .mail {
+  display: block; 
+}
+figure#part8 div.inner div.contact p a {
+  margin-left: 10px; font-size: 20px;
+}
+
+
+/* aside top */
+div#wrap aside { 
+  position: fixed; right: 50px; bottom: 50px;
+}
+div#wrap aside a {
+  color: orangered; 
+  display: block; width: 200px; text-align: center; border: 1px solid orangered; padding: 10px 20px; box-sizing: border-box;
+  border-radius: 20px; box-shadow: 0 0 10px orangered;
+}
+div#wrap aside a:hover {
+  color: green; border: 1px solid green;
+  box-shadow: 0 0 10px  green;
+}
+
+/* ------ footer ----- */
+footer {
+  width: 100%; background-color: #333; padding: 100px 0; border-top: 1px solid #888;
+}  
+footer div.inner {
+  width: 1100px; margin: 0 auto; 
+}
+footer div.inner div.upper{
+  width: 100%; 
+}
+
+footer div.inner div.upper h1 {
+  font-weight: 600; font-size: 50px; color: #666; text-align: center; color: orangered; 
+} 
+
+
+
+/* 반짝이는 효과 연습 */
+/* 
+h2 {
+  font-family: 'Arial';
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 0.75;
+}
+
+span {
+  display: block;
+}
+
+span:not(.light) {
+  opacity: 0;
+  animation: flashText .5s ease-out alternate infinite;
+}
+
+span.light {
+  position: relative;
+  display: inline-block;
+}
+span.light:before {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 120%;
+    background: #fff;
+    filter: blur(10px);
+    content: "";
+    opacity: 0;
+    animation: flash .5s ease-out alternate infinite;
+}
+
+@keyframes flash{
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes flashText {
+  to {
+    opacity: 0.15;
+  }
+} */
