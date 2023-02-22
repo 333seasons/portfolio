@@ -14,7 +14,6 @@ if(isIE) {
 };
 
 
-
 $(window).load(function(){
   let winHeight = $(window).height();
   $('header').height(winHeight);
@@ -27,6 +26,7 @@ $(window).resize(function(){
   let winHeight = $(window).height();
   $('section').height(winHeight);
 });
+
 //----- scroll--------
 $('a.top').click(function(e){
   e.prenentDefault();
